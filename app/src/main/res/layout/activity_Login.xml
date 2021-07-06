@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/gambar"
+tools:context=".LoginActivity">
+
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="24dp"
+    android:layout_marginTop="144dp"    android:text="Selamat Datang"
+    android:textColor="@color/white"
+    android:textSize="37sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="24dp"
+    android:text="Senang bisa bertemu lagi!"
+    android:textColor="@color/white"
+    android:textSize="20sp"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteY="194dp" />
+
+<EditText
+    android:id="@+id/email"
+    android:layout_width="326dp"
+    android:layout_height="48dp"
+    android:background="@drawable/tmbl1"
+    android:hint="Masukkan email"
+    android:inputType="text"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:textColorHint="@color/white"
+    android:textStyle="bold"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="42dp"
+    tools:layout_editor_absoluteY="277dp" />
+
+<EditText
+    android:id="@+id/katasandi"
+    android:layout_width="326dp"
+    android:layout_height="48dp"
+    android:background="@drawable/tmbl1"
+    android:hint="Masukkan kata sandi"
+    android:inputType="textPassword"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:textColor="@color/white"
+    android:textColorHint="@color/white"
+    android:textStyle="bold"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="42dp"
+    tools:layout_editor_absoluteY="341dp" />
+
+
+
+     <TextView
+        android:id="@+id/lupasandi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lupa sandi? klik ini"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="468dp"/>
+
+    <TextView
+        android:id="@+id/buatakun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_gravity="center"
+        android:text="Belum punya akun? buat akun"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+<Button
+    android:id="@+id/masuk"
+    android:layout_width="124dp"
+    android:layout_height="45dp"
+    android:layout_gravity="center"
+    android:background="@drawable/tmbl0"
+    android:text="masuk"
+    android:textStyle="bold"
+    app:backgroundTint="@color/teal_200"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="137dp"
+    tools:layout_editor_absoluteY="416dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

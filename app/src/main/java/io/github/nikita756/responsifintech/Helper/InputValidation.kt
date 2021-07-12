@@ -9,9 +9,6 @@ import android.view.inputmethod.InputMethodManager
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 
-/**
- * Created by Lalit Vasan on 9/13/2016.
- */
 class InputValidation
 /**
  * constructor
@@ -39,6 +36,7 @@ class InputValidation
         }
         return true
     }
+
     fun isInputEditTextEmail(textInputEditText: TextInputEditText, textInputLayout: TextInputLayout, message:
     String): Boolean {
         val value = textInputEditText.text.toString().trim()
@@ -83,4 +81,5 @@ class InputValidation
         imm.hideSoftInputFromWindow(view.windowToken,
             WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN)
     }
+
 }

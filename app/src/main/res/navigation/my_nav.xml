@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="io.github.nikita756.responsifintech.Fragment.HomeFragment"
+        android:label="HomeFragment" />
+    <activity
+        android:id="@+id/pembayaranActivity"
+        android:name="io.github.nikita756.responsifintech.Activity.PembayaranActivity"
+        android:label="activity_pembayaran"
+        tools:layout="@layout/activity_pembayaran" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="io.github.nikita756.responsifintech.Fragment.HistoryFragment"
+        android:label="HistoryFragment" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="io.github.nikita756.responsifintech.Fragment.SettingFragment"
+        android:label="SettingFragment" />
+</navigation>

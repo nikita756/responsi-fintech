@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="io.github.nikita756.responsifintech">
+
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -9,18 +12,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ResponsiFintech">
-        <activity android:name=".DasboardActivity"></activity>
+        <activity android:name=".Activity.KodeBayarActivity"></activity>
+        <activity android:name=".Activity.PembayaranActivity" />
+        <activity android:name=".Activity.DasboardActivity" />
         <activity
             android:name=".RegistActivity"
             android:label="@string/title_activity_regist" />
         <activity android:name=".HomeActivity" />
-        <activity android:name=".RecoveryActivity" />
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".Activity.RecoveryActivity" />
+        <activity android:name=".Activity.RegisterActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.ResponsiFintech.NoActionBar" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".Activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

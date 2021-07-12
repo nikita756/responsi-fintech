@@ -13,4 +13,15 @@
     <color name="blue_4">#007EFF</color>
     <color name="blue_5">#1100FF</color>
     <color name="red">#FF0000</color>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="lightGray">#D1D0D0</color>
+    <color name="darkBrown">#2B2828</color>
+
+    <color name="colorPrimaryDark">#1565c0</color>
+    <color name="colorAccent">#0097A7</color>
+
+    <!--Secondary colors-->
+    <color name="colorTranslucent">#50000000</color>
+    <color name="lightColor">#64E71A</color>
+
 </resources>
